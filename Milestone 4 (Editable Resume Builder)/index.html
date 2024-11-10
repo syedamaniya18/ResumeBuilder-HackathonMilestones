@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Editable Resume Builder</h1>
+    <form id="form">
+        <fieldset class="Personal">
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input id="Personal-Info" type="text" placeholder="Enter your Name" required>
+
+            <label for="email">Email:</label>
+            <input id="Email" type="text" placeholder="Enter your Name" required>
+
+            <label for="contact">Contact Number:</label>
+            <input id="Contact" type="text" placeholder="Enter your Name">
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education:</label>
+            <textarea id="Education" type="text" placeholder="Enter your Education" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <label for="Experience">Experience:</label>
+            <textarea id="Experience" type="text" placeholder="Enter your Work Experience" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Skill</legend>
+            <label for="skill">Skill:</label>
+            <textarea id="Skill" type="text" placeholder="Enter your Skills" rows="4" required></textarea>
+        </fieldset>
+        <button type="submit"><b>Generate</b></button>
+    </form>
+    <br>
+    <div id="display-resume" contenteditable="true">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

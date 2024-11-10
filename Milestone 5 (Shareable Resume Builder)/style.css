@@ -1,0 +1,104 @@
+body {
+    background-image: url(abstract-motion-futuristic-line-neon-light-background-modern-technology-website-wallpaper-digital-science-concept-with-future-business-art-backdrop_79161-1844.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 0;
+    margin: 20px;
+    color: aliceblue;
+}
+
+button {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: #213E3B;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+button:hover {
+    color: #213E3B;
+    border: 1px solid #213E3B;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+form {
+    border: 2px solid #4e6e74;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: #E8FFFF;
+}
+
+fieldset {
+    border: 2px solid #4e6e74;
+    border-radius: 10px;
+    background-color: #d6f1ef;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a3a5f;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    color: black;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: -1px;
+    margin-top: 4px;
+    border: 1px solid #c6dbde;
+}
+
+#display-resume {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #4e6e74;
+    border-radius: 8px;
+    outline: none;
+    background-color: #E8FFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+#display-resume h2 {
+    color: black;
+}
+
+#Shareable {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #4e6e74;
+    border-radius: 8px;
+    outline: none;
+    background-color: #E8FFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: black;
+}

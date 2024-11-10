@@ -1,0 +1,133 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+} 
+
+.main-container{
+    display: block;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.top-section {
+    display: flex;
+    width: 80%;
+    border-radius: 20px 20px 0 0;
+    background-color: black;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+}
+
+.bottom-section {
+    display: flex;
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    justify-content: space-around;
+}
+
+.contact-details {
+    line-height: 2px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    margin-top: 19px;
+    margin-left: 80px;
+}
+
+.right {
+    background-color: #134B70;
+    width: 33%;
+    color: #f4f4f4;
+    padding-left: 40px;
+    border-right: 3px solid black;
+    padding-top: 20px;
+}
+
+.right h2 {
+    background-color: white;
+    color: #134B70;
+    height: 40px;
+    align-content: center;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.left {
+    background-color: white;
+    width: 66%;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.left h2 {
+    background-color: #134B70;
+    color: white;
+    height: 40px;
+    align-content: center;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.picture {
+    background-color: #134B70;
+    height: 80%;
+    width: 35%;
+    padding-bottom: 16px;
+    border-right: 3px solid black;
+}
+
+.name-container {
+    letter-spacing: 10px;
+    margin-left: 9px;
+    font-family: Georgia, serif;
+    color: #134B70;
+    justify-content: space-around;
+    width: 65%;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.name-container h2 {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.name-container h1 {
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+button {
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    color: #134B70;
+    border: 2px solid white;
+}
+
+button:hover {
+    color: white;
+    background-color: #134B70;
+}
